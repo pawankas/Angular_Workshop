@@ -1,0 +1,39 @@
+<!-- {{ model | json }}
+<div class="form-group">
+  <label for="name">id</label>
+  <input type="text" class="form-control" id="name"
+         required
+         [(ngModel)]="model.id" name="name">
+</div>
+
+<div>
+  <label for="firstName">First Name</label>
+  <input type="text" class="form-control" id="firstName"
+         required
+         [(ngModel)]="model.firstName" name="firstName">
+</div>
+
+<div class="form-group">
+  <label for="lastName">Last Name</label>
+  <input type="text"  class="form-control" id="lastName"
+         [(ngModel)]="model.lastName" name="lastName">
+</div> -->
+
+
+<!-- <div style="margin: 10px;" *ngFor="let u of Users">
+  <h4 style="color: cadetblue;">Id : {{u.id}}</h4> <br>
+  <h4 style="color: rgb(27, 82, 233);">Name : {{u.first_name}}  {{u.last_name}}</h4> <br>
+  <h5 style="color: rgb(231, 64, 53);">Email : {{u.email}}</h5> <br>
+  <div></div><br>
+  <hr>
+</div> -->
+<div style="margin: 10px;" *ngFor="let u of Users">
+  <h4 style="color: cadetblue;">Id : {{u.flightId}}</h4> <br>
+  <h4 style="color: rgb(27, 82, 233);">Operator Name : {{u.operatorName}}</h4> <br>
+  <h5 style="color: rgb(231, 64, 53);">Departure City : {{u.departureCity}}</h5> <br>
+  <h5 style="color: rgb(231, 64, 53);">Arrival City : {{u.arivalCity}}</h5> <br>
+  <h5 style="color: rgb(231, 64, 53);">Fare : {{u.price}}</h5> <br>
+  <h5 style="color: rgb(231, 64, 53);">Seating Capacity : {{u.seatingCapacity}}</h5> <br>
+  <div></div><br>
+  <hr>
+</div>

@@ -1,0 +1,48 @@
+<ul>
+  <h2 style="text-align: center;">Yesterday's Chores</h2>
+  <li *ngFor="let yesterday of yesterdays">
+
+    <p> {{yesterday.id}} - {{yesterday.name}} </p>
+  </li>
+  <h4 style="color: brown;">
+    <p>Total Yesterdays Chores are {{yesterdays.length}}</p>
+  </h4>
+
+
+</ul>
+<hr>
+
+<ul>
+  <h2 style="text-align: center;">Today's Chores</h2>
+  <li *ngFor="let today of todays">
+
+    <p> {{today.id}} - {{today.name}} </p>
+  </li>
+  <h4 style="color: brown;">
+    <p>Total Todays Chores are {{todays.length}}</p>
+    
+  </h4>
+
+   <div *ngIf="todays.length - yesterdays.length > 0  ; then thenBlock else elseBlock"></div>
+
+   <!-- <div *ngIf="'todays.length == 0'  ; then thenBlock else elseBlock"></div> -->
+   <ng-template #thenBlock ><p style="color: rgb(236, 27, 19)">Work Hard</p></ng-template>
+  <ng-template #elseBlock ><p style="color: rgb(9, 230, 156)">Treat</p></ng-template>
+</ul>
+<hr>
+
+<ul>
+  <h2 style="text-align: center;">Tomorrow's Chores</h2>
+  <li *ngFor="let tomorrow of tomorrows">
+
+    <p> {{tomorrow.id}} - {{tomorrow.name}} </p>
+  </li>
+  <h4 style="color: brown;">
+    <p>Total Tomorrow's Chores are {{tomorrows.length}}</p>
+  </h4>
+
+  <div *ngIf="tomorrows.length - todays.length > 0  ; then thenBlock else elseBlock"></div>
+  <ng-template #thenBlock ><p style="color: rgb(236, 27, 19)">Work Hard</p></ng-template>
+  <ng-template #elseBlock ><p style="color: rgb(7, 163, 111)">Treat</p></ng-template>
+</ul>
+<hr>
