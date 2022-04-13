@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "title": "Chavva",
+      "description": "Chava is a Marathi historical work which tells the story of Sambhaji Bhosale, the eldest son of Chhatrapati Shivaji. Summary of the Book. Born to Shivaji and his first wife Saibai, Sambhaji was entrusted with carrying on the Maratha empire which Shivaji began.",
+      "id": 2
+    },
+    {
+      "title": "Mrutyunjay",
+      "description": "Mrityunjaya is the autobiography of Karna in which the author provides a deep exploration of Karna's life, who is often reduced to an antagonist in most modern renditions of the Mahabharata. This book is a study of humanity, life and existentialism through the Mahabharata.",
+      "id": 3
+    },
+    {
+      "title": "The Alchemist",
+      "description": "1-Sentence-Summary: The Alchemist is a classic novel in which a boy named Santiago embarks on a journey seeking treasure in the Egyptian pyramids after having a recurring dream about it and on the way meets mentors, falls in love, and most importantly, learns the true importance of who he is and how to improve himself ...",
+      "id": 6
+    },
+    {
+      "title": "To Kill A Mockingbird by Harper Lee",
+      "description": "There’s no way we wouldn’t have included this masterpiece on this list of the best beginners books. A story of racial inequality and courage, this book shows you the world through the eyes of Jean Finch and her older brother Jeremy. It also deals with serious societal issues. As you enter the world of this novel, you will learn about different kinds of people. With so many emotions to experience through the book",
+      "id": 8
+    },
+    {
+      "title": "Inferno ",
+      "description": "Inferno (Italian: [iɱˈfɛrno]; Italian for \"Hell\") is the first part of Italian writer Dante Alighieri's 14th-century epic poem Divine Comedy. It is followed by Purgatorio and Paradiso. The Inferno describes Dante's journey through Hell, guided by the ancient Roman poet Virgil.",
+      "id": 9
+    },
+    {
+      "title": "The School for Good Mothers by Jessamine Chan",
+      "description": "Jessamine Chan’s debut—like all truly terrifying nightmares—starts off in a banal, familiar way: an utterly exhausted mother, in a moment of sleep-deprived despair, does the unthinkable (and yet understandable) and walks out of her apartment, leaving her baby behind. She doesn’t intend to be gone for long, but somehow time slips away, and before she realizes it, she’s been gone for hours. It’s a terrible thing to have done, and she knows it. But no degree of contrition will spare her from the authorities who descend, first removing her child and then transplanting her to an abandoned college campus turned dystopian re-education facility where she will, ostensibly, learn what it truly takes to be a good mother.",
+      "id": 10
+    },
+    {
+      "title": "Slider",
+      "description": "When David accidentally charges $2000 to his mom's credit card, he concocts a plan to get the money by winning a pizza eating contest. In between prepping his stomach for the contest and taking care of his neuro-atypical brother, Mal, David must also figure out where he stands when his two best friends find themselves in a relationship. This book has lots of laughs but is also a meaningful read and many 13 year olds will understand David's struggle with friends and family.",
+      "id": 11
+    }
+  ]
+}

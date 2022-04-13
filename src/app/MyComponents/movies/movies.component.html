@@ -1,0 +1,35 @@
+<div class="search" style="margin: 10px">
+  <input
+    type="text"
+    [(ngModel)]="term"
+    class="searchTerm"
+    placeholder="Search For Movie Here"
+  />
+</div>
+<div class="zoom">
+  <div class="row pad">
+    <div
+      class="e-card-horizontal"
+      style="width: 30rem"
+      *ngFor="let movie of Movies | searchFilter: term; let i = index"
+    >
+      <img [src]="movie.image" [routerLink]="['/movies', movie.id]" class="card-img-top" alt="..." *ngIf="flag"  />
+
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.name }}</h5>
+        <p class="card-text">{{ movie.description }}</p>
+
+        <button type="button" class="btn btn-dark" (click)="onClick()">
+          Toggle
+        </button>
+      </div>
+    </div>
+  </div>
+<div>
+  <div class="*">
+    <button type="button" class="btn btn-dark" (click)="goBack()">
+      Go Back
+    </button>
+  </div>
+</div>
+</div>
